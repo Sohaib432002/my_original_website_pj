@@ -41,7 +41,7 @@ body {
 .nav-links li a {
     text-decoration: none;
     padding: 13px 34px;
-    color: rgb(190, 43, 190);
+    color: white;
     font-family: fangsong;
     letter-spacing: 2px;
     /* height: 23px; */
@@ -93,7 +93,7 @@ body {
 
 .span1 {
 
-    border: 3px solid deeppink;
+    border: 3px solid darkgray;
     display: flex;
     border-radius: 114px;
     /* padding: 0px; */
@@ -202,7 +202,7 @@ body {
 .about-section h1 {
     font-size: 71px;
     text-align: center;
-    color: purple;
+    color: black;
     padding-top: 100px;
     margin-bottom: 76px;
 
@@ -212,7 +212,7 @@ body {
 
 .about-section h1:hover {
     font-size: 85px;
-    color: black;
+    color: whitesmoke;
 }
 
 .about-section {
@@ -241,94 +241,95 @@ body {
 }
 
 .left-about {
-
+    background-color: darkgray;
     padding: 0px;
     /* border: 2px solid; */
     border-radius: 0px 68px;
     /* background-color: #8a4dfd; */
     /* box-shadow: 2px 2px 2px 2px #8a4dfd; */
     /* box-shadow-left: 75px blue; */
-}
-
-.left-about h5 {
-    font-family: fangsong;
-    letter-spacing: 25px;
-    /* border: 2px solid; */
-    padding-left: 42px;
+    }
+    
+    .left-about h5 {
+        font-family: fangsong;
+        letter-spacing: 25px;
+        /* border: 2px solid; */
+        padding-left: 42px;
     /* 0px: ; */
     padding-top: 49px;
     font-size: 45px;
     color: #250c5e;
     text-align: center;
-}
-
-.left-about p {
-    font-size: 22px;
-
-    color: white;
-    padding: 70px;
-    padding-top: 20px;
-    text-align: start;
-    font-family: fangsong;
-}
-
-.center-about {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* background: url(../../new/Particle-light-abstract-bg.jpg); */
-    /* background-size: cover; */
-
-    /* background-blend-mode: 0 0 0 0.4 darken; */
-    /* background-attachment: fixed; */
-}
-
-.center-about button {
-    margin-top: 51px;
-    font-size: 22px;
-    font-family: fangsong;
-    background-color: #8a4dfd;
-    padding: 14px;
-    border: none;
-    border-radius: 129px 6px;
-}
-
-.myimg2 {
-    /* border: 44px solid; */
-    /* border: 2px solid; */
-    /* width: 50%; */
-    /* display: flex; */
-    /* justify-content: center; */
-    /* align-items: center; */
-    /* text-align: center; */
-    /* background-color: violet; */
-    color: #7767b9;
-    border-radius: 129px;
-    display: flex;
-    flex-direction: column;
-}
-
-.center-about button:hover {
-    color: aliceblue;
+    }
+    
+    .left-about p {
+        font-size: 22px;
+        
+        color: white;
+        padding: 70px;
+        padding-top: 20px;
+        text-align: start;
+        font-family: fangsong;
+        }
+        
+        .center-about {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* background: url(../../new/Particle-light-abstract-bg.jpg); */
+            /* background-size: cover; */
+            
+            /* background-blend-mode: 0 0 0 0.4 darken; */
+            /* background-attachment: fixed; */
+            }
+            
+            .center-about button {
+                margin-top: 51px;
+                font-size: 22px;
+                font-family: fangsong;
+                
+                background-color: darkgray;
+                padding: 14px;
+                border: none;
+                border-radius: 129px 6px;
+                }
+                
+    .myimg2 {
+        /* border: 44px solid; */
+        /* border: 2px solid; */
+        /* width: 50%; */
+        /* display: flex; */
+        /* justify-content: center; */
+        /* align-items: center; */
+        /* text-align: center; */
+        /* background-color: violet; */
+        color: #7767b9;
+        border-radius: 129px;
+        display: flex;
+        flex-direction: column;
+        }
+        
+        .center-about button:hover {
+            color: aliceblue;
     border-radius: 6px 129px;
     font-size: 28px;
     cursor: pointer;
-}
+    }
 
 .myimg2 img {
-
+    
     border-radius: 133px;
-}
-
-.myimg2 img:hover {
-    animation-name: myimg2;
-    animation-duration: 3s;
-    transition: 10s;
-    animation-iteration-count: infinite;
-}
-
-@keyframes myimg2 {
-
+    }
+    
+    .myimg2 img:hover {
+        animation-name: myimg2;
+        animation-duration: 3s;
+        transition: 10s;
+        animation-iteration-count: infinite;
+        }
+        
+        @keyframes myimg2 {
+            
     /* 0%{transform:rotate(0deg);}         */
     /* 25%{transform:rotate(90deg);}        
     50%{transform:rotate(180deg);}        
@@ -336,7 +337,7 @@ body {
     100% {
         transform: rotate(360deg);
     }
-
+    
 }
 
 .right-about {
@@ -351,9 +352,10 @@ body {
     /* border: 2px solid; */
     border-radius: 68px 0px;
     /* background-color: #8a4dfd; */
+    background-color: darkgray;
     row-gap: 12px;
     /* box-shadow: 2px 2px 2px 2px #8a4dfd; */
-}
+    }
 
 .right-about h2 {}
 
@@ -373,7 +375,7 @@ body {
     FONT-FAMILY: FANGSONG;
     BORDER-RADIUS: 49PX 0PX;
     /* BACKGROUND-COLOR: #432097; */
-    COLOR: #8a4efe;
+    COLOR: white;
 }
 
 .btn1:hover {
@@ -432,6 +434,7 @@ body {
     padding: 52px;
     font-family: fangsong;
     color: aliceblue;
+    background-color: darkgray;
     border-radius: 29px;
     margin: 30px;
     display: flex;
@@ -449,36 +452,27 @@ body {
 
 }
 
-.about-section {
-    /* background: url('https://static.vecteezy.com/system/resources/previews/008/854/831/non_2x/abstract-blur-gradient-background-with-trending-pastel-pink-purple-purple-red-orange-yellow-and-blue-colors-for-approval-concept-wallpaper-web-presentation-and-prints-illustration-free-photo.jpg'); */
-    /* background-size: cover; */
-}
 
 .service-section {
-    /* background: url(../../new/9.webp); */
-    /* background-size: cover; */
     padding-top: 92px;
-    /* background: rgb(131, 58, 180); */
-    /* background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(59, 29, 253, 0.9864320728291317) 50%, rgba(69, 159, 252, 0.8267682072829132) 91%); */
 }
 
 .service-section h2 {
     text-align: center;
-    font-size: 62px;
+    font-size: 30px;
     font-family: fantasy;
-    letter-spacing: 8px;
-    color: purple;
+    letter-spacing: 2px;
+    color: black;
     padding-bottom: 35px;
 }
 
 .service-section h2:hover {
-    font-size: 70px;
-    color: black;
+    font-size: 35px;
+    color: white;
 }
 
 .service-box1 img {
     height: 250px;
-    /* border: 2px solid; */
 }
 
 .service-inner {
@@ -498,6 +492,8 @@ body {
     border-radius: 133px 19px;
     margin: 20px;
     flex-direction: column;
+    border-color: black;
+    color: white;
 }
 
 .service-box1:hover {
@@ -505,6 +501,8 @@ body {
     /* background-blend-mode: darken; */
     /* background: 0px 0px 0px 0.5px black; */
     border: none;
+    
+    background-color: darkgray;
     /* background-blend-mode: darken; */
 
 }
@@ -519,8 +517,6 @@ body {
 
 .project-section {
     padding-top: 89px;
-    /* background: url('../../new/pink-purple-and-blue-backgroundsandroid-iphone-desktop-hd-backgrounds-wallpapers-1080p-4k-s4vjz.jpg'); */
-    /* background-size: cover; */
 }
 
 .Project-section h1 {
@@ -528,13 +524,13 @@ body {
     font-size: 62px;
     font-family: fantasy;
     letter-spacing: 8px;
-    color: purple;
+    color:black;
     /* padding-bottom: 77px; */
 }
 
 .project-section h1:hover {
     font-size: 70px;
-    color: black;
+    color: white;
 }
 
 .pj-inner {
@@ -579,24 +575,24 @@ body {
     font-size: 62px;
     font-family: fantasy;
     letter-spacing: 8px;
-    color: purple;
+    color:black;
 }
 
 .project-section h1:hover {
     font-size: 70px;
-    color: black;
+    color: white;
 }
 
 .pj1 {
-    /* background-image: url('https://healthitanalytics.com/images/site/article_headers/_normal/ThinkstockPhotos-495951912.jpg'); */
-    /* background-size: cover; */
+    background-image: url('https://healthitanalytics.com/images/site/article_headers/_normal/ThinkstockPhotos-495951912.jpg'); 
+     background-size: cover; 
 
 }
 
 .pj1:hover {
     background-image: (0px, 0px, 0px, 1px);
     background-blend-mode: darken;
-    background-color: #9c27b0;
+    background-color: darkgray;
     color: antiquewhite;
     font-size: 44px;
     opacity: 1;
@@ -609,15 +605,15 @@ body {
 }
 
 .pj2 {
-    /* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS1bxtsn8q53XGLIyXB41PI6iOxaM4hcRxLA&s'); */
-    /* background-size: cover; */
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS1bxtsn8q53XGLIyXB41PI6iOxaM4hcRxLA&s'); 
+    background-size: cover; 
 
 }
 
 .pj2:hover {
     background-image: (0px, 0px, 0px, 1px);
     background-blend-mode: darken;
-    background-color: #9c27b0;
+    background-color: darkgray;
     color: antiquewhite;
     font-size: 44px;
     opacity: 1;
@@ -626,6 +622,7 @@ body {
 .pj2 h3:hover {
     font-size: 33px;
     opacity: 1;
+    
     cursor: pointer;
 }
 
@@ -638,7 +635,7 @@ body {
 .pj3:hover {
     background-image: (0px, 0px, 0px, 1px);
     background-blend-mode: darken;
-    background-color: #9c27b0;
+    background-color: darkgray;
     color: antiquewhite;
     font-size: 44px;
     opacity: 1;
@@ -659,7 +656,7 @@ body {
 .pj4:hover {
     background-image: (0px, 0px, 0px, 1px);
     background-blend-mode: darken;
-    background-color: #9c27b0;
+    background-color: darkgray;
     color: antiquewhite;
     font-size: 44px;
     opacity: 1;
@@ -680,7 +677,7 @@ body {
 .pj5:hover {
     background-image: (0px, 0px, 0px, 1px);
     background-blend-mode: darken;
-    background-color: #9c27b0;
+    background-color: darkgray;
     color: antiquewhite;
     font-size: 44px;
     opacity: 1;
@@ -701,7 +698,7 @@ body {
 .pj6:hover {
     background-image: (0px, 0px, 0px, 1px);
     background-blend-mode: darken;
-    background-color: #9c27b0;
+    background-color: darkgray;
     color: antiquewhite;
     font-size: 44px;
     opacity: 1;
@@ -729,7 +726,7 @@ body {
 
 .btn-service button:hover {
     border: none;
-    background-color: #874ce5;
+    background-color: darkgray;
     color: white;
     font-size: 21px;
     font-family: fangsong;
@@ -757,9 +754,8 @@ body {
 }
 
 .contact-me-table input {
-    background-color: #8356e7;
+    background-color: darkgray;
     /* border-left: none; */
-
     font-size: 27px;
     font-family: fangsong;
     /* border: none; */
@@ -784,13 +780,13 @@ body {
     font-size: 62px;
     font-family: fantasy;
     letter-spacing: 8px;
-    color: purple;
+    color: black;
     margin-top: 70px;
 }
 
 .contact-section h1:hover {
     font-size: 70px;
-    color: black;
+    color: white;
 }
 
 .last-btn {
@@ -803,20 +799,23 @@ body {
 }
 
 .last-btn button {
-
+    
+    width: 115px;
+    height: 35px;
+    margin-top: 29px;
     DISPLAY: flex;
     JUSTIFY-CONTENT: center;
     ALIGN-ITEMS: center;
     border-radius: 72px 2px;
 
-    BACKGROUND-COLOR: #9c76ef;
+    background-color: darkgray;
     font-size: 20px;
     font-family: fangsong;
     border: none;
 }
 
 .last-btn button:hover {
-    background-color: #432097;
+    background-color: darkgray;
     color: aliceblue;
     font-size: 25px;
 
@@ -863,13 +862,13 @@ html {
 .btn {
     display: block;
     border-radius: 68px;
-    background-color: #a963df;
+    background-color: darkgray;
     color: white;
     border: 12px solid #7938d4;
 }
 
 .btn:hover {
-    background-color: #7938d4;
+    background-color: #000;
     border-color: black;
     font-size: larger;
     cursor: pointer;
@@ -970,13 +969,14 @@ html {
 }
 
 .social-icons a {
-    color: #777777;
+    color: white;
     text-decoration: none;
     font-size: 16px;
 }
 
 .social-icons a:hover {
-    color: #000;
+    color: black;
+
 }
 
 .address-links {
@@ -995,6 +995,7 @@ html {
 }
 
 .address-links .address1 {
+    color: white;
     font-weight: 500;
     font-size: 15px;
     display: flex;
@@ -1015,6 +1016,7 @@ html {
 
 a {
     text-decoration: none;
+    color: white;
 }
 
 
